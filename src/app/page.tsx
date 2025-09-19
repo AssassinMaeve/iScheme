@@ -1,19 +1,15 @@
+import Footer from "./components/Footer"; // adjust path if needed
+
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-grow">
-        
-
-
-        <h1 className="text-3xl text-center mt-10">Welcome to My Site</h1>
-
-
-
+      <main className="flex-grow p-8">
+        <h1 className="text-3xl text-center mb-10">Welcome to My Site</h1>
+        <p className="text-center">Your main content goes here...</p>
       </main>
 
-      <footer className="bg-[#2f2b45] text-white p-4 text-center">
-        © 2025 iScheme. All rights reserved.
-      </footer>
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
