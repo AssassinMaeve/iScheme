@@ -24,7 +24,7 @@ body {
 .navbar {
   background-color: var(--bg);
   color: var(--text);
-
+}
 /* This animation is used for sliding up elements*/
 @keyframes slide-up {
   from {
