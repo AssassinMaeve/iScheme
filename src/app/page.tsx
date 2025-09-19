@@ -4,6 +4,7 @@ import Footer from "./components/Footer"; // adjust path if needed
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
+      <NavBar/>
       <main className="flex-grow">
         
 
