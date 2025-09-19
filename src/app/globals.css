@@ -21,6 +21,9 @@ body {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
+.navbar {
+  background-color: var(--bg);
+  color: var(--text);
 
 /* This animation is used for sliding up elements*/
 @keyframes slide-up {
