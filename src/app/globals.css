@@ -20,3 +20,27 @@ body {
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
   transition: background 0.3s ease, color 0.3s ease;
 }
+
+.navbar {
+  background-color: var(--bg);
+  color: var(--text);
+}
+/* This animation is used for sliding up elements*/
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 1.5s ease-out forwards;
+}
+
+.shadow-top {
+  box-shadow: 0 -4px 6px -1px rgba(0,0,0,0.1), 0 -2px 4px -1px rgba(0,0,0,0.06);
+}
