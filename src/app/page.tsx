@@ -102,9 +102,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-
           <section className="mt-20">
-          
           <SchemeViewer schemes={rawSchemes} />
         </section>
 
