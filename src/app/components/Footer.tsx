@@ -10,6 +10,9 @@ export default function Footer() {
   useEffect(() => setMounted(true), []);
   if (!mounted) return null; // prevent mismatch between SSR & client
 
+
+
+
   // Theme-based colors
   const bgColor = theme === "light" ? "bg-[#e4f4fc]" : "bg-[#111827]";
   const textColor = theme === "light" ? "text-[#1e3a8a]" : "text-[#ededed]";
@@ -25,6 +28,7 @@ export default function Footer() {
           <p className={`text-sm sm:text-base mt-2 md:mt-4 italic ${textColor}`}>
             Your Gateway to Every Scheme
           </p>
+
         </div>
 
         {/* Right: Links */}
@@ -32,6 +36,9 @@ export default function Footer() {
           
           {/* Pages */}
           <div>
+
+
+
             <h3 className={`text-lg sm:text-xl font-bold mb-3 ${textColor}`}>Pages</h3>
             <ul className="space-y-2">
               <li>
@@ -49,11 +56,15 @@ export default function Footer() {
                   Schemes
                 </Link>
               </li>
+
             </ul>
           </div>
 
           {/* Information */}
           <div>
+
+
+
             <h3 className={`text-lg sm:text-xl font-bold mb-3 ${textColor}`}>Information</h3>
             <ul className="space-y-2">
               <li>
@@ -65,6 +76,7 @@ export default function Footer() {
                 <Link href="/contact-us" className={`transition font-semibold duration-300 hover:text-blue-500 ${textColor}`}>
                   Contact Us
                 </Link>
+
               </li>
             </ul>
           </div>
@@ -72,6 +84,7 @@ export default function Footer() {
       </div>
 
       {/* Divider */}
+
       <div className={`w-11/12 md:w-4/5 h-0.5 mt-8 mb-4 rounded mx-auto ${dividerColor}`}></div>
 
       {/* Footer Bottom */}
@@ -79,6 +92,7 @@ export default function Footer() {
         <p>2025 iScheme. All rights reserved</p>
         <p>Developed by Team St Carlo Acutis</p>
       </div>
+
     </footer>
   );
 }
