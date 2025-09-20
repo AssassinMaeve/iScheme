@@ -14,10 +14,9 @@ export default function Navbar() {
 
   const navLinks = [
                     { name: "Home", href: "/" },
-                    { name: "Schemes", href: "/schemes" },
-                    { name: "About", href: "/about" },
-                    { name: "Contact Us", href: "/contact" },
-                    { name: "Screen Reader", href: "/reader" },
+                    { name: "Schemes", href: "#schemes" },
+                    { name: "About", href: "#about" },
+                    { name: "Screen Reader", href: "#reader" },
 ];
 
   return (
@@ -42,7 +41,7 @@ export default function Navbar() {
             transition={{ delay: index * 0.1, duration: 0.4 }}
           >
             <Link
-              href={"#"}
+              href={link.href}
               className="transition-colors duration-300 hover:text-blue-600 dark:hover:text-blue-400"
             >
               {link.name}
