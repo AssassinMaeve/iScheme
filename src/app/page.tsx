@@ -5,15 +5,20 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <NavBar />
-      <main className="flex-grow flex flex-col items-center justify-center">
-        <Link href="/questionnaire">
+      <NavBar/>
+      <main className="flex-grow min-h-screen">
+        <div className="w-11/12 md:w-4/5 mx-auto">
+        <h1 className="text-3xl text-center mt-10">Welcome to My Site</h1>
+          <Link href="/questionnaire">
           <button className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700">
             Start Questionnaire
           </button>
         </Link>
 
-        <h1 className="text-3xl text-center mt-10">Welcome to My Site</h1>
+        <h1 className="text-6xl">Schemes</h1>
+        
+        
+        </div>
       </main>
       <Footer />
     </div>
