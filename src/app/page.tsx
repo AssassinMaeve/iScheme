@@ -1,11 +1,8 @@
 "use client";
 import Link from "next/link";
 import NavBar from "./components/NavBar";
-
 import Footer from "./components/Footer"; // adjust path if needed
-import Link from "next/link";
 import ImageCard from "./components/ImageCard";
-import Footer from "./components/Footer";
 import { motion } from "framer-motion";
 import {SchemeViewer, Scheme} from "./components/Scheme";
 import rawSchemes from "@/data/all_schemes.json";
@@ -14,49 +11,31 @@ import rawSchemes from "@/data/all_schemes.json";
 export default function Home() {
   const schemesDemo = [
     {
-      title: "Net-zero strategy & roadmapping",
-      desc: "Set meaningful goals and create a step-by-step plan to reach them.",
-      img: "/images/scheme1.jpg",
-      description: "A comprehensive roadmap to help organizations and individuals achieve net-zero emissions.",
-      link: "https://example.com/netzero",
-      category: "Environment",
+      title: "Pradhan Mantri Jan Dhan Yojana",
+      desc: "The scheme facilitates zero-balance accounts, RuPay debit cards, and direct benefit transfers, bringing the unbanked population into the formal financial system",
+      img: "/images/output-1.webp",
+      description: "The scheme facilitates zero-balance accounts, RuPay debit cards, and direct benefit transfers, bringing the unbanked population into the formal financial system",
+      link: "",
+      category: "Finance",
       features: ["Goal setting", "Roadmap creation", "Progress tracking"]
     },
     {
-      title: "Scheme Title 2",
-      desc: "Short description of Scheme 2 explaining the benefit.",
-      img: "/images/scheme2.jpg",
-      description: "Detailed information about Scheme 2 and its advantages.",
-      link: "https://example.com/scheme2",
+      title: "Beti Bachao Beti Padhao",
+      desc: "The scheme works to prevent gender-biased sex selection and ensure every girl's survival, protection, and participation in education.",
+      img: "/images/output-4.webp",
+      description: "The scheme works to prevent gender-biased sex selection and ensure every girl's survival, protection, and participation in education.",
+      link: "",
       category: "Education",
       features: ["Scholarships", "Mentorship", "Workshops"]
     },
     {
-      title: "Scheme Title 3",
-      desc: "Short description of Scheme 3 explaining the benefit.",
-      img: "/images/scheme3.jpg",
-      description: "Scheme 3 provides support for skill development and training.",
-      link: "https://example.com/scheme3",
+      title: "Rashtriya Madhyamik Shiksha Abhiyan",
+      desc: "In 2018, this scheme was integrated into the larger Samagra Shiksha Abhiyan, which now holistically covers school education from pre-school to Class 12.",
+      img: "/images/output-5.webp",
+      description: "In 2018, this scheme was integrated into the larger Samagra Shiksha Abhiyan, which now holistically covers school education from pre-school to Class 12.",
+      link: "",
       category: "Skill Development",
       features: ["Training", "Certification", "Placement assistance"]
-    },
-    {
-      title: "Scheme Title 4",
-      desc: "Short description of Scheme 4 explaining the benefit.",
-      img: "/images/scheme1.jpg",
-      description: "Scheme 4 focuses on financial assistance for startups.",
-      link: "https://example.com/scheme4",
-      category: "Finance",
-      features: ["Grants", "Loans", "Mentorship"]
-    },
-    {
-      title: "Scheme Title 5",
-      desc: "Short description of Scheme 5 explaining the benefit.",
-      img: "/images/scheme2.jpg",
-      description: "Scheme 5 is designed to empower women entrepreneurs.",
-      link: "https://example.com/scheme5",
-      category: "Women Empowerment",
-      features: ["Networking", "Funding", "Training"]
     },
   ];
 
@@ -79,7 +58,7 @@ export default function Home() {
 
       <div className="flex-grow min-h-screen">
         <div className="flex justify-center flex-col items-center">
-          <p className="px-6 py-1 rounded-full mt-10 "><span className="opacity-60">About Us</span></p>
+          <p className="px-6 py-1 rounded-full mt-70 "><span className="opacity-60">About Us</span></p>
         </div>
         <h1 className="px-60 text-6xl text-center mt-5">We're a small team of passionate students helping people find schemes and other financial aids easier.</h1>
         <div className="flex justify-center flex-col items-center">
@@ -91,11 +70,11 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-12">
             {/* Left Side - Sticky Text */}
             <div className="md:w-1/2 md:sticky md:top-24">
-              <h1 className="text-6xl font-bold leading-tight">
+              <h1 className="text-6xl font-semibold leading-tight">
                 Empowering Citizens <br />
                 Through Schemes
               </h1>
-              <p className="mt-4 text-sm font-sans leading-relaxed">
+              <p className="mt-4 text-1xl font-sans leading-relaxed">
                 Discover government programs designed to support, uplift, and empower you. <br />
                 From financial assistance to skill development, we help you access the benefits that matter most.
               </p>
@@ -132,7 +111,7 @@ export default function Home() {
           <SchemeViewer schemes={rawSchemes} />
         </section>
 
-          <h1 className="mt-4 text-6xl mt-40 text-center font-bold font-sans leading-relaxed">
+          <h1 className="mt-4 text-6xl mt-25 text-center font-bold font-sans leading-relaxed">
                 Screen Reader
           </h1>
 
