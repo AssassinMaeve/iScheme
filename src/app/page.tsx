@@ -80,7 +80,69 @@ export default function Home() {
               ))}
             </div>
           </div>
+
+          <h1 className="mt-4 text-6xl mt-40 text-center font-bold font-sans leading-relaxed">
+                Screen Reader
+          </h1>
+
+          <p className="mt-4 text-1xl  text-center font-sans leading-relaxed">
+                This allows users with visual impairments to navigate and use our platform seamlessly with assistive tools, such as screen readers <br />
+                We are committed to ensuring that all information on iScheme is easily accessible to everyone..
+          </p>
+
+
+<div className="overflow-x-auto mt-20">
+  <table className="min-w-full border border-gray-300 dark:border-gray-700 text-left">
+    <thead className="bg-gray-200 dark:bg-gray-800">
+      <tr >
+        <th className="px-6 py-3 border-b border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-200">
+          Screen Reader
+        </th>
+        <th className="px-6 py-3 border-b border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-200">
+          Website
+        </th>
+        <th className="px-6 py-3 border-b border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-200">
+          Type
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {[
+        { name: "Non Visual Desktop Access (NVDA)", link: "http://www.nvda-project.org/", type: "Free" },
+        { name: "System Access To Go", link: "http://www.satogo.com", type: "Free" },
+        { name: "Hal", link: "http://www.yourdolphin.co.uk/productdetail.asp?id=5", type: "Commercial" },
+        { name: "JAWS", link: "http://www.freedomscientific.com/products/software/jaws/", type: "Commercial" },
+        { name: "Supernova", link: "http://www.yourdolphin.co.uk/productdetail.asp?id=1", type: "Commercial" },
+        { name: "Window-Eyes", link: "http://www.gwmicro.com/Window-Eyes/", type: "Commercial" },
+      ].map((reader, index) => (
+        <tr
+          key={index}
+          className={`hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors ${
+            index % 2 === 0 ? "bg-white dark:bg-gray-900" : "bg-gray-50 dark:bg-gray-800"
+          }`}
+        >
+          <td className="px-6 py-3 border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-200">
+            {reader.name}
+          </td>
+          <td className="px-6 py-3 border-b border-gray-300 dark:border-gray-700">
+            <a
+              href={reader.link}
+              target="_blank"
+              className="text-blue-600 dark:text-blue-400 underline"
+            >
+              {reader.link}
+            </a>
+          </td>
+          <td className="px-6 py-3 border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-200">
+            {reader.type}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
         </div>
+
       </main>
       <Footer />
     </div>
