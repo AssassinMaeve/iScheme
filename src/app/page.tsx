@@ -1,11 +1,9 @@
 "use client";
-import Link from "next/link";
 import NavBar from "./components/NavBar";
 
 import Footer from "./components/Footer"; // adjust path if needed
 import Link from "next/link";
 import ImageCard from "./components/ImageCard";
-import Footer from "./components/Footer";
 import { motion } from "framer-motion";
 import {SchemeViewer, Scheme} from "./components/Scheme";
 import rawSchemes from "@/data/all_schemes.json";
@@ -81,7 +79,7 @@ export default function Home() {
         <div className="flex justify-center flex-col items-center">
           <p className="px-6 py-1 rounded-full mt-10 "><span className="opacity-60">About Us</span></p>
         </div>
-        <h1 className="px-60 text-6xl text-center mt-5">We're a small team of passionate students helping people find schemes and other financial aids easier.</h1>
+        <h1 className="px-6 text-6xl text-center mt-5 sm:text-2xl sm:px-5">We're a small team of passionate students helping people find schemes and other financial aids easier.</h1>
         <div className="flex justify-center flex-col items-center">
           <Link href={"#"} className="px-6 py-3 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 hover:scale-105 transition duration-300 mt-10">Learn more</Link>
         </div>
