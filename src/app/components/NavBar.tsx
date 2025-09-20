@@ -61,14 +61,7 @@ export default function Navbar() {
           </motion.button>
         )}
 
-        {/* Sign In */}
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
-        >
-          Sign In
-        </motion.button>
+        
         
 
       </div>
@@ -107,10 +100,7 @@ export default function Navbar() {
             </button>
           )}
 
-          {/* Sign In */}
-          <button className="px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition w-full">
-            Sign In
-          </button>
+          
         </motion.div>
       )}
     </nav>

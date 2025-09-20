@@ -12,7 +12,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-interface SchemeFeature {
+export interface SchemeFeature {
   education_level: string;
   age_group: string;
   occupation: string;

@@ -37,17 +37,17 @@ export default function Footer() {
             <h3 className={`text-lg sm:text-xl font-bold mb-3 ${textColor}`}>Pages</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/home" className={`transition font-semibold duration-300 hover:text-blue-500 ${textColor}`}>
+                <Link href="/" className={`transition font-semibold duration-300 hover:text-blue-500 ${textColor}`}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className={`transition font-semibold duration-300 hover:text-blue-500 ${textColor}`}>
+                <Link href="#about" className={`transition font-semibold duration-300 hover:text-blue-500 ${textColor}`}>
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/schemes" className={`transition font-semibold duration-300 hover:text-blue-500 ${textColor}`}>
+                <Link href="#schemes" className={`transition font-semibold duration-300 hover:text-blue-500 ${textColor}`}>
                   Schemes
                 </Link>
               </li>
@@ -59,13 +59,8 @@ export default function Footer() {
             <h3 className={`text-lg sm:text-xl font-bold mb-3 ${textColor}`}>Information</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/screen-reader" className={`transition font-semibold duration-300 hover:text-blue-500 ${textColor}`}>
+                <Link href="#reader" className={`transition font-semibold duration-300 hover:text-blue-500 ${textColor}`}>
                   Screen Reader
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact-us" className={`transition font-semibold duration-300 hover:text-blue-500 ${textColor}`}>
-                  Contact Us
                 </Link>
               </li>
             </ul>

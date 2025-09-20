@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import NavBar from "./NavBar";
+import NavBar from "../components/NavBar";
 
 const questions = [
   {
@@ -22,6 +22,10 @@ const questions = [
       "Andaman and Nicobar Islands", "Chandigarh", "Dadra and Nagar Haveli and Daman and Diu",
       "Delhi", "Jammu and Kashmir", "Ladakh", "Lakshadweep", "Puducherry"
     ],
+  },
+  {
+    label: "What is your age?",
+    type: "number",
   },
   {
     label: "What is your household's annual income?",
@@ -55,21 +59,59 @@ export default function Questionnaire() {
     }
     setError("");
     if (step < totalSteps - 1) setStep(step + 1);
-    else router.push("/schemes");
+    else {
+      const encodedAnswers = encodeURIComponent(JSON.stringify(answers));
+      router.push(`/schemes?answers=${encodedAnswers}`);
+    }
   };
 
   const handleBack = () => {
     if (step > 0) setStep(step - 1);
   };
 
+  const renderInput = () => {
+    if (current.type === "select") {
+      return (
+        <select
+          className="w-full p-3 rounded-lg bg-gray-800 focus:outline-none focus:ring-2 focus:ring-[#155dfc] transition text-white border-none shadow-sm"
+          value={answers[current.label] || ""}
+          onChange={(e) => setAnswers({ ...answers, [current.label]: e.target.value })}
+        >
+          <option value="" className="text-gray-400">Select an option</option>
+          {current.options?.map((opt) => (
+            <option key={opt} value={opt} className="text-white">
+              {opt}
+            </option>
+          ))}
+        </select>
+      );
+    } else if (current.type === "number") {
+      const maxVal = current.label.includes("income") ? 2000000 : 100;
+      const stepVal = current.label.includes("income") ? 5000 : 1;
+      const displayValue = current.label.includes("income") ? `₹${(answers[current.label] || 0).toLocaleString("en-IN")}` : answers[current.label] || 0;
+      return (
+        <div className="flex flex-col items-center">
+          <input
+            type="range"
+            min="0"
+            max={maxVal}
+            step={stepVal}
+            value={answers[current.label] || 0}
+            onChange={(e) => setAnswers({ ...answers, [current.label]: Number(e.target.value) })}
+            className="w-full h-2 rounded-lg appearance-none cursor-pointer bg-gray-700 accent-[#155dfc]"
+          />
+          <span className="mt-3 text-lg font-semibold text-[#155dfc]">
+            {displayValue}
+          </span>
+        </div>
+      );
+    }
+    return null;
+  };
+
   return (
-    
-    <div className="min-h-screen w-full flex flex-col items-center justify-center bg-[#111827]  text-white">
-      
-      {/* Card */}
+    <div className="min-h-screen w-full flex flex-col items-center justify-center bg-[#111827] text-white">
       <div className="w-full max-w-xl min-h-[460px] bg-gray-900 shadow-2xl rounded-2xl p-8 flex flex-col justify-between border border-gray-700 transition-transform hover:scale-[1.01] duration-300">
-        
-        {/* Progress Bar */}
         <div className="mb-4">
           <div className="h-3 bg-gray-700 rounded-full overflow-hidden">
             <motion.div
@@ -83,8 +125,6 @@ export default function Questionnaire() {
             Step {step + 1} of {totalSteps}
           </p>
         </div>
-
-        {/* Question Section */}
         <div className="flex-1 flex flex-col justify-center">
           <AnimatePresence mode="wait">
             <motion.div
@@ -96,49 +136,11 @@ export default function Questionnaire() {
               className="text-center"
             >
               <h2 className="text-2xl font-bold mb-6">{current.label}</h2>
-
-              {current.type === "select" && (
-                <select
-                  className="w-full p-3 rounded-lg bg-gray-800 focus:outline-none focus:ring-2 focus:ring-[#155dfc] transition text-white border-none shadow-sm"
-                  value={answers[current.label] || ""}
-                  onChange={(e) =>
-                    setAnswers({ ...answers, [current.label]: e.target.value })
-                  }
-                >
-                  <option value="" className="text-gray-400">Select an option</option>
-                  {current.options?.map((opt) => (
-                    <option key={opt} value={opt} className="text-white">
-                      {opt}
-                    </option>
-                  ))}
-                </select>
-              )}
-
-              {current.type === "number" && (
-                <div className="flex flex-col items-center">
-                  <input
-                    type="range"
-                    min="0"
-                    max="2000000"
-                    step="5000"
-                    value={answers[current.label] || 0}
-                    onChange={(e) =>
-                      setAnswers({ ...answers, [current.label]: Number(e.target.value) })
-                    }
-                    className="w-full h-2 rounded-lg appearance-none cursor-pointer bg-gray-700 accent-[#155dfc]"
-                  />
-                  <span className="mt-3 text-lg font-semibold text-[#155dfc]">
-                    ₹{(answers[current.label] || 0).toLocaleString("en-IN")}
-                  </span>
-                </div>
-              )}
-
+              {renderInput()}
               {error && <p className="text-red-400 text-sm mt-2">{error}</p>}
             </motion.div>
           </AnimatePresence>
         </div>
-
-        {/* Buttons */}
         <div className="flex justify-between mt-4">
           <motion.button
             whileHover={{ scale: 1.05 }}
@@ -149,7 +151,6 @@ export default function Questionnaire() {
           >
             <ArrowLeft className="w-4 h-4" /> Back
           </motion.button>
-
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
