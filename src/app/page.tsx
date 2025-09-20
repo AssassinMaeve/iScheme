@@ -58,7 +58,7 @@ export default function Home() {
 
       <div className="flex-grow min-h-screen">
         <div className="flex justify-center flex-col items-center">
-          <p className="px-6 py-1 rounded-full mt-70 "><span className="opacity-60">About Us</span></p>
+          <p id=" about" className="px-6 py-1 rounded-full mt-10 "><span className="opacity-60">About Us</span></p>
         </div>
         <h1 className="px-60 text-6xl text-center mt-5">We're a small team of passionate students helping people find schemes and other financial aids easier.</h1>
         <div className="flex justify-center flex-col items-center">
@@ -69,7 +69,7 @@ export default function Home() {
           {/* Two-column layout */}
           <div className="flex flex-col md:flex-row gap-12">
             {/* Left Side - Sticky Text */}
-            <div className="md:w-1/2 md:sticky md:top-24">
+            <div id="schemes" className="md:w-1/2 md:sticky md:top-24">
               <h1 className="text-6xl font-semibold leading-tight">
                 Empowering Citizens <br />
                 Through Schemes
@@ -111,7 +111,7 @@ export default function Home() {
           <SchemeViewer schemes={rawSchemes} />
         </section>
 
-          <h1 className="mt-4 text-6xl mt-25 text-center font-bold font-sans leading-relaxed">
+          <h1 id="reader" className="mt-4 text-6xl mt-25 text-center font-bold font-sans leading-relaxed">
                 Screen Reader
           </h1>
 
