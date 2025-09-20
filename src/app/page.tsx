@@ -1,5 +1,6 @@
+import Link from "next/link";
 import NavBar from "./components/NavBar";
-import Footer from "./components/Footer"; // adjust path if needed
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -8,14 +9,17 @@ export default function Home() {
       <main className="flex-grow min-h-screen">
         <div className="w-11/12 md:w-4/5 mx-auto">
         <h1 className="text-3xl text-center mt-10">Welcome to My Site</h1>
+          <Link href="/questionnaire">
+          <button className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700">
+            Start Questionnaire
+          </button>
+        </Link>
 
         <h1 className="text-6xl">Schemes</h1>
         
         
         </div>
       </main>
-
-      {/* Footer */}
       <Footer />
     </div>
   );
