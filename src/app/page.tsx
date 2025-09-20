@@ -6,7 +6,8 @@ import ImageCard from "./components/ImageCard";
 import { motion } from "framer-motion";
 import {SchemeViewer, Scheme} from "./components/Scheme";
 import rawSchemes from "@/data/all_schemes.json";
-import Questionnaire from "./components/Questionnaire";
+import Questionnaire from "./questionnaire/Questionnaire";
+
 
 
 export default function Home() {
