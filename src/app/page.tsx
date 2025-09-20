@@ -6,12 +6,13 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <NavBar/>
       <main className="flex-grow min-h-screen">
-        
+        <div className="w-11/12 md:w-4/5 mx-auto">
         <h1 className="text-3xl text-center mt-10">Welcome to My Site</h1>
 
         <h1 className="text-6xl">Schemes</h1>
-
-
+        
+        
+        </div>
       </main>
 
       {/* Footer */}
