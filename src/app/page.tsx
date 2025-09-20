@@ -80,6 +80,10 @@ export default function Home() {
               ))}
             </div>
           </div>
+          <section className="mt-10">
+          <h2 className="text-4xl font-bold mb-6 text-center">Schemes</h2>
+          <SchemeViewer schemes={schemes} />
+        </section>
 
           <h1 className="mt-4 text-6xl mt-40 text-center font-bold font-sans leading-relaxed">
                 Screen Reader
