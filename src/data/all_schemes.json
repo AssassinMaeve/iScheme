@@ -1,0 +1,493 @@
+[
+  {
+    "title": "Pradhan Mantri Fasal Bima Yojana",
+    "description": "Crop insurance scheme to protect farmers against crop failure.",
+    "link": "https://www.myscheme.gov.in/scheme/fasal-bima",
+    "category": "Agriculture,Rural & Environment",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Farmer",
+      "state": "All India",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Soil Health Card Scheme",
+    "description": "Provides farmers with information on soil nutrient status and fertilizers.",
+    "link": "https://www.myscheme.gov.in/scheme/soil-health-card",
+    "category": "Agriculture,Rural & Environment",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Farmer",
+      "state": "All India",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "National Bamboo Mission",
+    "description": "Promotes bamboo cultivation and supports small-scale industries.",
+    "link": "https://www.myscheme.gov.in/scheme/bamboo-mission",
+    "category": "Agriculture,Rural & Environment",
+    "features": {
+      "education_level": "Primary",
+      "age_group": "18-60",
+      "occupation": "Farmer, Self-employed",
+      "state": "All India",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Pradhan Mantri Jan Dhan Yojana",
+    "description": "Financial inclusion scheme providing basic bank accounts to all citizens.",
+    "link": "https://www.myscheme.gov.in/scheme/jan-dhan",
+    "category": "Banking,Financial Services and Insurance",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Student, Worker",
+      "state": "All India",
+      "income_level": "Below 10 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Stand Up India Scheme",
+    "description": "Provides loans to women and SC/ST entrepreneurs for setting up enterprises.",
+    "link": "https://www.myscheme.gov.in/scheme/stand-up-india",
+    "category": "Business & Entrepreneurship",
+    "features": {
+      "education_level": "Secondary",
+      "age_group": "18-45",
+      "occupation": "Entrepreneur",
+      "state": "All India",
+      "income_level": "Below 10 Lakh/year",
+      "caste_category": "SC/ST"
+    }
+  },
+  {
+    "title": "MUDRA Loan Scheme",
+    "description": "Provides micro-finance loans to small businesses and self-employed entrepreneurs.",
+    "link": "https://www.myscheme.gov.in/scheme/mudra",
+    "category": "Business & Entrepreneurship",
+    "features": {
+      "education_level": "Secondary",
+      "age_group": "18-50",
+      "occupation": "Self-employed, Entrepreneur",
+      "state": "Maharashtra, Gujarat",
+      "income_level": "Below 10 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Mid Day Meal Scheme",
+    "description": "Provides free lunches to children in government schools to improve nutrition.",
+    "link": "https://www.myscheme.gov.in/scheme/mid-day-meal",
+    "category": "Education & Learning",
+    "features": {
+      "education_level": "Student",
+      "age_group": "6-14",
+      "occupation": "Student",
+      "state": "Tamil Nadu, Uttar Pradesh",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Rashtriya Madhyamik Shiksha Abhiyan",
+    "description": "Supports secondary education in underserved areas with infrastructure and quality improvements.",
+    "link": "https://www.myscheme.gov.in/scheme/rmsa",
+    "category": "Education & Learning",
+    "features": {
+      "education_level": "Student",
+      "age_group": "14-18",
+      "occupation": "Student",
+      "state": "Rajasthan, Bihar",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Ayushman Bharat",
+    "description": "Health insurance scheme for economically weaker sections covering hospital expenses.",
+    "link": "https://www.myscheme.gov.in/scheme/ayushman-bharat",
+    "category": "Health & Wellness",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Worker, Student",
+      "state": "West Bengal, Kerala",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "National Health Mission",
+    "description": "Improves healthcare delivery in rural and urban areas.",
+    "link": "https://www.myscheme.gov.in/scheme/nhm",
+    "category": "Health & Wellness",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Worker",
+      "state": "Madhya Pradesh, Odisha",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Pradhan Mantri Awas Yojana",
+    "description": "Affordable housing scheme for urban and rural poor.",
+    "link": "https://www.myscheme.gov.in/scheme/pma-yojana",
+    "category": "Housing & Shelter",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Worker, Farmer",
+      "state": "Haryana, Punjab",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Legal Services Authority",
+    "description": "Provides free legal services to marginalized sections of society.",
+    "link": "https://www.myscheme.gov.in/scheme/legal-services",
+    "category": "Public Safety,Law & Justice",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Worker, Student",
+      "state": "Karnataka, Assam",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Digital India Initiative",
+    "description": "Promotes digital infrastructure and digital literacy across India.",
+    "link": "https://www.myscheme.gov.in/scheme/digital-india",
+    "category": "Science, IT & Communications",
+    "features": {
+      "education_level": "Secondary",
+      "age_group": "14-35",
+      "occupation": "Student, IT Professional",
+      "state": "Delhi, Telangana",
+      "income_level": "Below 10 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Skill India Mission",
+    "description": "Training programs for youth to improve employability and vocational skills.",
+    "link": "https://www.myscheme.gov.in/scheme/skill-india",
+    "category": "Skills & Employment",
+    "features": {
+      "education_level": "Secondary",
+      "age_group": "18-35",
+      "occupation": "Student, Worker",
+      "state": "Maharashtra, Kerala",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "National Social Assistance Programme",
+    "description": "Financial assistance to elderly, widows, and disabled individuals.",
+    "link": "https://www.myscheme.gov.in/scheme/nsap",
+    "category": "Social welfare & Empowerment",
+    "features": {
+      "education_level": "None",
+      "age_group": "60+",
+      "occupation": "Retired, Farmer",
+      "state": "Uttar Pradesh, Rajasthan",
+      "income_level": "Below 2 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Khelo India",
+    "description": "National program to promote sports and develop talent in young athletes.",
+    "link": "https://www.myscheme.gov.in/scheme/khelo-india",
+    "category": "Sports & Culture",
+    "features": {
+      "education_level": "Student",
+      "age_group": "10-25",
+      "occupation": "Student, Athlete",
+      "state": "Madhya Pradesh, Haryana",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Pradhan Mantri Gram Sadak Yojana",
+    "description": "Provides all-weather road connectivity to unconnected villages.",
+    "link": "https://www.myscheme.gov.in/scheme/pmgs-yojana",
+    "category": "Transport & Infrastructure",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Worker, Farmer",
+      "state": "Bihar, Odisha",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Incredible India Tourism Promotion",
+    "description": "Promotes tourism across India and supports local communities.",
+    "link": "https://www.myscheme.gov.in/scheme/incredible-india",
+    "category": "Travel & Tourism",
+    "features": {
+      "education_level": "Secondary",
+      "age_group": "18-40",
+      "occupation": "Tourist, Worker",
+      "state": "Rajasthan, Goa",
+      "income_level": "Below 10 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Swachh Bharat Mission",
+    "description": "Provides sanitation facilities and promotes hygiene across India.",
+    "link": "https://www.myscheme.gov.in/scheme/swachh-bharat",
+    "category": "Utility & Sanitation",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Worker, Student",
+      "state": "Madhya Pradesh, Uttar Pradesh",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Beti Bachao Beti Padhao",
+    "description": "Campaign to improve girl child survival, education, and empowerment.",
+    "link": "https://www.myscheme.gov.in/scheme/beti-bachao",
+    "category": "Women and Child",
+    "features": {
+      "education_level": "Student",
+      "age_group": "6-18",
+      "occupation": "Student, Homemaker",
+      "state": "Rajasthan, Haryana",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Mahila E-Haat",
+    "description": "Online marketing platform for women entrepreneurs to sell their products.",
+    "link": "https://www.myscheme.gov.in/scheme/mahila-ehaat",
+    "category": "Women and Child",
+    "features": {
+      "education_level": "Secondary",
+      "age_group": "18-45",
+      "occupation": "Entrepreneur, Homemaker",
+      "state": "Maharashtra, Kerala",
+      "income_level": "Below 10 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "National Skill Development Mission",
+    "description": "Provides vocational training to youth across India.",
+    "link": "https://www.myscheme.gov.in/scheme/nsdm",
+    "category": "Skills & Employment",
+    "features": {
+      "education_level": "Secondary",
+      "age_group": "18-35",
+      "occupation": "Student, Worker",
+      "state": "Telangana, Odisha",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Pradhan Mantri Krishi Sinchai Yojana",
+    "description": "Irrigation scheme to improve water supply for farmers.",
+    "link": "https://www.myscheme.gov.in/scheme/pmk-sinchai",
+    "category": "Agriculture,Rural & Environment",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Farmer, Worker",
+      "state": "Madhya Pradesh, Karnataka",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Paramparagat Krishi Vikas Yojana",
+    "description": "Promotes organic farming and sustainable agriculture.",
+    "link": "https://www.myscheme.gov.in/scheme/pkv-yojana",
+    "category": "Agriculture,Rural & Environment",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Farmer",
+      "state": "Himachal Pradesh, Uttarakhand",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "National Rural Livelihood Mission",
+    "description": "Supports self-employment and skill development in rural areas.",
+    "link": "https://www.myscheme.gov.in/scheme/nrlm",
+    "category": "Social welfare & Empowerment",
+    "features": {
+      "education_level": "Secondary",
+      "age_group": "18-50",
+      "occupation": "Worker, Farmer",
+      "state": "Bihar, Jharkhand",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Deen Dayal Upadhyaya Gram Jyoti Yojana",
+    "description": "Rural electrification scheme to provide reliable electricity to villages.",
+    "link": "https://www.myscheme.gov.in/scheme/ddugj-yojana",
+    "category": "Utility & Sanitation",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Worker, Farmer",
+      "state": "Rajasthan, Uttar Pradesh",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Pradhan Mantri Shram Yogi Maan-Dhan",
+    "description": "Pension scheme for unorganized sector workers.",
+    "link": "https://www.myscheme.gov.in/scheme/pm-sy-md",
+    "category": "Social welfare & Empowerment",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Worker, Self-employed",
+      "state": "Maharashtra, Tamil Nadu",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "National Apprenticeship Promotion Scheme",
+    "description": "Promotes apprenticeship training for students and workers.",
+    "link": "https://www.myscheme.gov.in/scheme/naps",
+    "category": "Skills & Employment",
+    "features": {
+      "education_level": "Secondary",
+      "age_group": "18-35",
+      "occupation": "Student, Worker",
+      "state": "Karnataka, Gujarat",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "National Urban Livelihood Mission",
+    "description": "Supports self-employment and skill development in urban areas.",
+    "link": "https://www.myscheme.gov.in/scheme/nulm",
+    "category": "Social welfare & Empowerment",
+    "features": {
+      "education_level": "Secondary",
+      "age_group": "18-50",
+      "occupation": "Worker, Entrepreneur",
+      "state": "Delhi, Maharashtra",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "National Pension Scheme",
+    "description": "Provides retirement savings and pension benefits to citizens.",
+    "link": "https://www.myscheme.gov.in/scheme/nps",
+    "category": "Banking,Financial Services and Insurance",
+    "features": {
+      "education_level": "Secondary",
+      "age_group": "18-60",
+      "occupation": "Worker, Self-employed",
+      "state": "Delhi, Kerala",
+      "income_level": "Below 10 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "National Food Security Mission",
+    "description": "Promotes increased agricultural production and food security.",
+    "link": "https://www.myscheme.gov.in/scheme/nfsm",
+    "category": "Agriculture,Rural & Environment",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Farmer",
+      "state": "Punjab, Haryana",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Pradhan Mantri Kaushal Vikas Yojana",
+    "description": "Skill training program for youth across India.",
+    "link": "https://www.myscheme.gov.in/scheme/pmkv-yojana",
+    "category": "Skills & Employment",
+    "features": {
+      "education_level": "Secondary",
+      "age_group": "18-35",
+      "occupation": "Student, Worker",
+      "state": "Odisha, Madhya Pradesh",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Ujjwala Yojana",
+    "description": "Provides LPG connections to women from below-poverty households.",
+    "link": "https://www.myscheme.gov.in/scheme/ujjwala",
+    "category": "Women and Child",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-50",
+      "occupation": "Housewife, Worker",
+      "state": "Bihar, Jharkhand",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "Rashtriya Swasthya Bima Yojana",
+    "description": "Health insurance scheme for families below the poverty line.",
+    "link": "https://www.myscheme.gov.in/scheme/rsby",
+    "category": "Health & Wellness",
+    "features": {
+      "education_level": "None",
+      "age_group": "18-60",
+      "occupation": "Worker, Farmer",
+      "state": "Uttar Pradesh, Rajasthan",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  },
+  {
+    "title": "National Social Service Scheme",
+    "description": "Youth volunteering and community service programs.",
+    "link": "https://www.myscheme.gov.in/scheme/nss",
+    "category": "Social welfare & Empowerment",
+    "features": {
+      "education_level": "Secondary",
+      "age_group": "16-30",
+      "occupation": "Student, Volunteer",
+      "state": "Karnataka, Maharashtra",
+      "income_level": "Below 5 Lakh/year",
+      "caste_category": "All"
+    }
+  }
+]
+
