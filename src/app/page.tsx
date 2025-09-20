@@ -3,33 +3,55 @@ import Link from "next/link";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { motion } from "framer-motion";
+import {SchemeViewer, Scheme} from "./components/Scheme";
+import rawSchemes from "@/data/all_schemes.json";
 
 export default function Home() {
-  const schemes = [
+  const schemesDemo = [
     {
       title: "Net-zero strategy & roadmapping",
       desc: "Set meaningful goals and create a step-by-step plan to reach them.",
       img: "/images/scheme1.jpg",
+      description: "A comprehensive roadmap to help organizations and individuals achieve net-zero emissions.",
+      link: "https://example.com/netzero",
+      category: "Environment",
+      features: ["Goal setting", "Roadmap creation", "Progress tracking"]
     },
     {
       title: "Scheme Title 2",
       desc: "Short description of Scheme 2 explaining the benefit.",
       img: "/images/scheme2.jpg",
+      description: "Detailed information about Scheme 2 and its advantages.",
+      link: "https://example.com/scheme2",
+      category: "Education",
+      features: ["Scholarships", "Mentorship", "Workshops"]
     },
     {
       title: "Scheme Title 3",
       desc: "Short description of Scheme 3 explaining the benefit.",
       img: "/images/scheme3.jpg",
+      description: "Scheme 3 provides support for skill development and training.",
+      link: "https://example.com/scheme3",
+      category: "Skill Development",
+      features: ["Training", "Certification", "Placement assistance"]
     },
     {
       title: "Scheme Title 4",
       desc: "Short description of Scheme 4 explaining the benefit.",
       img: "/images/scheme1.jpg",
+      description: "Scheme 4 focuses on financial assistance for startups.",
+      link: "https://example.com/scheme4",
+      category: "Finance",
+      features: ["Grants", "Loans", "Mentorship"]
     },
     {
       title: "Scheme Title 5",
       desc: "Short description of Scheme 5 explaining the benefit.",
       img: "/images/scheme2.jpg",
+      description: "Scheme 5 is designed to empower women entrepreneurs.",
+      link: "https://example.com/scheme5",
+      category: "Women Empowerment",
+      features: ["Networking", "Funding", "Training"]
     },
   ];
 
@@ -55,7 +77,7 @@ export default function Home() {
 
             {/* Right Side - Scrollable Cards */}
             <div className="md:w-1/2 h-[600px] overflow-y-auto scrollbar-none flex flex-col gap-8">
-              {schemes.map((scheme, index) => (
+              {schemesDemo.map((scheme, index) => (
                 <motion.div
                   key={index}
                   className="flex flex-col"
@@ -80,9 +102,10 @@ export default function Home() {
               ))}
             </div>
           </div>
-          <section className="mt-10">
-          <h2 className="text-4xl font-bold mb-6 text-center">Schemes</h2>
-          <SchemeViewer schemes={schemes} />
+
+          <section className="mt-20">
+          
+          <SchemeViewer schemes={rawSchemes} />
         </section>
 
           <h1 className="mt-4 text-6xl mt-40 text-center font-bold font-sans leading-relaxed">
