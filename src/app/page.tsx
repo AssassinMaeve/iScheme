@@ -1,20 +1,13 @@
 "use client";
 import Link from "next/link";
 import NavBar from "./components/NavBar";
-<<<<<<< HEAD
-=======
 import Footer from "./components/Footer"; // adjust path if needed
->>>>>>> 35b76cc368c13aef65575df3b574ff47d645b954
 import ImageCard from "./components/ImageCard";
 import { motion } from "framer-motion";
 import {SchemeViewer, Scheme} from "./components/Scheme";
 import rawSchemes from "@/data/all_schemes.json";
-<<<<<<< HEAD
 import Questionnaire from "./questionnaire/Questionnaire";
 
-=======
-import Questionnaire from "./components/Questionnaire";
->>>>>>> 35b76cc368c13aef65575df3b574ff47d645b954
 
 
 export default function Home() {
