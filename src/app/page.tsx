@@ -7,10 +7,9 @@ export default function Home() {
       <NavBar/>
       <main className="flex-grow min-h-screen">
         
-
-
         <h1 className="text-3xl text-center mt-10">Welcome to My Site</h1>
 
+        <h1 className="text-6xl">Schemes</h1>
 
 
       </main>
