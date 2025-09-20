@@ -6,34 +6,18 @@ export default function ImageCard() {
     {
       title: "Beautiful Beach",
       desc: "Relax and enjoy the waves.",
-      img: "/images/beach.jpg", // put image in public/images
+      img: "/images/output-7.webp", // put image in public/images
     },
     {
       title: "Mountain View",
       desc: "Adventure awaits in the hills.",
-      img: "/images/mountain.jpg",
+      img: "/images/output-2.webp",
     },
     {
-      title: "City Lights",
-      desc: "The city never sleeps.",
-      img: "/images/city.jpg",
+      title: "",
+      desc: "",
+      img: "/images/output-8.webp",
     },
-    {
-      title: "City Lights",
-      desc: "The city never sleeps.",
-      img: "/images/city.jpg",
-    },
-    {
-      title: "Mountain View",
-      desc: "Adventure awaits in the hills.",
-      img: "/images/mountain.jpg",
-    },
-    {
-      title: "City Lights",
-      desc: "The city never sleeps.",
-      img: "/images/city.jpg",
-    },
-    
   ];
 
   return (
@@ -46,9 +30,9 @@ export default function ImageCard() {
           <Image
             src={card.img}
             alt={card.title}
-            width={250}
-            height={400}
-            className="w-48 h-full object-cover"
+            width={1080}
+            height={1920}
+            className="w-full h-full object-cover "
           />
           <div className="p-4">
             <h2 className="text-lg font-bold">{card.title}</h2>
