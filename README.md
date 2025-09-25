@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# iScheme
 
-## Getting Started
+> **Your Gateway to Every Scheme**
 
-First, run the development server:
+iScheme is a web platform designed to make government schemes more accessible and user-friendly. It serves as a **centralized hub** where users can explore, understand, and access relevant schemes with ease.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Features
+
+* 🌐 **Browse Schemes** – Access and explore schemes across categories.
+* 🎯 **User-Friendly Interface** – Clean, responsive, and accessible design.
+* 📱 **Responsive Layout** – Optimized for desktop, tablet, and mobile views.
+* 🌙 **Dark/Light Mode** – Theme switching for better readability.
+* ♿ **Accessibility Support** – Includes **Screen Reader** support for inclusivity.
+* 📑 **Informational Pages** – Dedicated sections for About Us, Contact, and more.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend Framework:** [Next.js](https://nextjs.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Icons & Animations:** Lucide React / Framer Motion
+* **Deployment:** Netlify / Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+iScheme/
+│── public/           # Static assets
+│── src/
+│   ├── app/          # Next.js App Router pages
+│   ├── components/   # Reusable UI components
+│   ├── styles/       # Global styles
+│── package.json
+│── tailwind.config.js
+│── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the Repository**
 
-## Learn More
+   ```bash
+   git clone https://github.com/yourusername/ischeme.git
+   cd ischeme
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install Dependencies**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Run Development Server**
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Build for Production**
+
+   ```bash
+   npm run build
+   npm start
+   ```
+
+---
+
+## 👨‍💻 Team
+
+Developed by **Team St Carlo Acutis**
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
