@@ -77,6 +77,7 @@ iScheme/
 ## 👨‍💻 Team
 
 Developed by **Team St Carlo Acutis**
+[@Vellon Moras](https://github.com/Vellon01)
 
 ---
 
