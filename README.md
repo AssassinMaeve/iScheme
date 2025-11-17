@@ -77,7 +77,12 @@ iScheme/
 ## 👨‍💻 Team
 
 Developed by **Team St Carlo Acutis**
-[@Vellon Moras](https://github.com/Vellon01)
+
+- [@Vellon Moraes](https://github.com/Vellon01)
+- [@Nickson Pereira](https://github.com/NICK3ON)
+- [@Nathan Furtado](https://github.com/Hartfun)
+- [@Maeve Fernandes](https://github.com/AssassinMaeve)
+
 
 ---
 
