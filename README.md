@@ -22,7 +22,6 @@ iScheme is a web platform designed to make government schemes more accessible an
 * **Frontend Framework:** [Next.js](https://nextjs.org/)
 * **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 * **Icons & Animations:** Lucide React / Framer Motion
-* **Deployment:** Netlify / Vercel
 
 ---
 
